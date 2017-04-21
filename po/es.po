@@ -1,0 +1,77 @@
+# Conozco Numeros <ceibaljam.org>
+# Copyright (C) 2010 CeibalJAM
+# This file is distributed under the same license as the Conozco Numeros package.
+# Ana Cichero <ana.cichero@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-19 02:25+0000\n"
+"PO-Revision-Date: 2010-07-19 02:27+0000\n"
+"Last-Translator:  <info@ceibaljam.org>\n"
+"Language-Team: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: activity/activity.info:2 activity.py:10
+msgid "Conozco Numeros"
+msgstr "Conozco Números"
+
+#: conozcouy.py:48
+msgid "recursos/es"
+msgstr "recursos/es"
+
+#: conozcouy.py:231
+msgid "Prefijo"
+msgstr "Prefijo"
+
+#: conozcouy.py:234
+msgid "Sufijo"
+msgstr "Sufijo"
+
+#: conozcouy.py:237
+msgid "Correcto"
+msgstr "Correcto"
+
+#: conozcouy.py:240
+msgid "Mal"
+msgstr "Mal"
+
+#: conozcouy.py:243
+msgid "Despedida"
+msgstr "Despedida"
+
+#: conozcouy.py:246
+msgid "Pregunta"
+msgstr "Pregunta"
+
+#: conozcouy.py:272
+msgid "Acerca de Conozco Numeros"
+msgstr "Acerca de Conozco Numeros"
+
+#: conozcouy.py:290
+msgid "Presiona cualquier tecla para volver"
+msgstr "Presiona cualquier tecla para volver"
+
+#: conozcouy.py:310
+msgid "CONOZCO NUMEROS"
+msgstr "CONOZCO NUMEROS"
+
+#: conozcouy.py:315
+msgid "Juego"
+msgstr "Juego"
+
+#: conozcouy.py:335
+msgid "Sobre este juego"
+msgstr "Sobre este juego"
+
+#: conozcouy.py:343
+msgid "Salir"
+msgstr "Salir"
+
+#: conozcouy.py:564
+msgid "Terminar"
+msgstr "Terminar"

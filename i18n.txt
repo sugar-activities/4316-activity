@@ -1,0 +1,79 @@
+
+  Translations for Conozco Numeros
+ ==================================
+
+1) Be sure the code can handle i18n
+
+You should add the following import statement in every Python text
+file that you want to translate:
+
+  from gettext import gettext as _
+
+
+2) Generate translation files
+
+These steps must be performed every time translatable strings are added to the code
+or a new translation is added.
+
+The example is for a Spanish translation.
+
+
+cd $HOME/Activities/ConozcoNumeros.activity
+
+# Generate the "po/ConozcoNumeros.pot" file:
+TEMP_DIR=/tmp/temp_dir_$$
+[ -d $TEMP_DIR ] && /bin/rm -rf $TEMP_DIR
+/bin/mkdir $TEMP_DIR
+/bin/mv olpcgames recursos $TEMP_DIR
+./setup.py fix_manifest
+./setup.py genpot
+/bin/mv $TEMP_DIR/* .
+/bin/rmdir $TEMP_DIR
+
+# Complete the first lines of the "po/ConozcoNumeros.pot" file with the version
+# information, your e-mail, etc.
+# Initialize a translation file for a given language (e.g. Spanish):
+cd po
+msginit -o es.po -l es
+# The former command creates file "es.po", which should contain the Spanish
+# translation. The command will ask for the e-mail of the "Last-Translator" attribute of
+# the ".po" file. You may also see some errors about a "team-address" file not found,
+# but the translation file is created anyway.
+
+
+Modify the "es.po" file to add the Spanish translations.
+Make sure the charset in the ".po" file is UTF-8. There should be a line like this one:
+"Content-Type: text/plain; charset=UTF-8\n"
+
+The "locale" folder is automagically generated when the bundle is generated.
+Thus, you will not see the translation or any changes made to it until you rebuild the bundle.
+
+
+
+Rebuild the bundle
+------------------
+
+1) Update the NEWS file with any relevant information
+
+2) Increment the version number in "activity/activity.info" (this is important
+   to avoid having to bundles with the same name but different content).
+
+3) Erase stale data
+
+   /bin/rm -rf locale MANIFEST
+ 
+4) Generate the bundle:
+
+  ./setup.py fix_manifest
+  ./setup.py dist_xo
+
+The new bundle will be in the (recently created) "dist" folder.
+
+
+-------------------------------------------------------------------------------
+
+References:
+http://wiki.laptop.org/go/Python_i18n
+
+
+

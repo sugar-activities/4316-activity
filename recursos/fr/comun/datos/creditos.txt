@@ -1,0 +1,14 @@
+Auteurs: Ana Cichero et Gabriel Eirea
+
+Ce programa est un logiciel libre
+Pour plus d'informations, rendez-vous sur http://ceibaljam.org
+
+Tous les textes : Ana Cichero <ana.cichero@gmail.com>
+Images des maisons : Federico Mandian <fedebox.co.uk>
+Edition des textes en français : Samy Boutayeb <samy.boutayeb@olpc-france.org>
+Internationalisation (i18n) : Marcos Orfila <www.marcosorfila.com>
+Autres : Ana Cichero
+
+Sons téléchargés de freesound.org : btn045.wav offert par junggle
+Polices téléchargées de urbanfonts.com :
+AllCaps.ttf offert par BobFrantic et Share-Regular.ttf offert par anonime

@@ -1,0 +1,36 @@
+2010-03-13
+
+Primera versión simplificando el código de Conozco Uruguay 8.
+
+
+2010-06-25
+
+Versión para Conozco Numeros 2 - Incorpora dos niveles 
+elementales - Explora elparentezco entre los primeros cien 
+naturales 
+
+
+2010-07-18
+
+New in version 4:
+* Texts in Spanish and French have been replaced, new questions were added to the game.
+  Texts author: Ana Cichero <ana.cichero@gmail.com>.
+  French Translation edited by Samy Boutayeb <samy.boutayeb@olpc-france.org>
+* Internationalization (i18n) by Marcos Orfila <www.marcosorfila.com>
+  See the file "i18n.txt" for details.
+
+
+2010-07-21
+
+New in version 8:
+* The level description file for French was updated by Ana Cichero <ana.cichero@gmail.com>
+* The Sugar icon was "sugarized" by Marcos Orfila <www.marcosorfila.com>
+* Bug fix: now the Spanish translation is shown by default (the app used to crash when no translation was available)
+
+
+2010-07-22
+
+New in version 9:
+* Corrections in several texts by Samy Boutayeb <samy.boutayeb@olpc-france.org>
+
+

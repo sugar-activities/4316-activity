@@ -1,0 +1,7 @@
+[Activity]
+name = Conozco Numeros
+activity_version = 9
+bundle_id = org.ceibaljam.conozconumeros
+icon = conozco-numeros
+exec = sugar-activity activity.Activity
+license = GPL+

@@ -1,0 +1,14 @@
+Autores: Ana Cichero y Gabriel Eirea
+
+Este programa es software libre
+Por más información visitá http://ceibaljam.org
+
+Todos los textos: Ana Cichero <ana.cichero@gmail.com>
+Gráficos de las casitas: Federico Mandian <fedebox.co.uk>
+Edición de los textos en francés: Samy Boutayeb <samy.boutayeb@olpc-france>
+Internacionalización (i18n): Marcos Orfila <www.marcosorfila.com>
+Otros: Ana Cichero
+
+Sonidos bajados de freesound.org: btn045.wav gentileza de junggle
+Fuentes bajadas de urbanfonts.com:
+AllCaps.ttf gentileza de BobFrantic y Share-Regular.ttf gentileza de anónimo
